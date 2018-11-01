@@ -9,3 +9,4 @@
 /Users/admin/Projects/Anim/Anim/obj/iPhoneSimulator/Debug/Anim.csproj.CoreCompileInputs.cache
 /Users/admin/Projects/Anim/Anim/obj/iPhoneSimulator/Debug/Anim.exe
 /Users/admin/Projects/Anim/Anim/obj/iPhoneSimulator/Debug/Anim.pdb
+/Users/admin/Projects/Anim/Anim/obj/iPhoneSimulator/Debug/Anim.csprojAssemblyReference.cache

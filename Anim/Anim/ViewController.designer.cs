@@ -31,10 +31,6 @@ namespace Anim
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton _btnRight { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton _btnRotate { get; set; }
 
         [Outlet]
@@ -53,6 +49,10 @@ namespace Anim
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton _btnUp { get; set; }
 
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton BtnRight { get; set; }
+
         [Action ("_btnColor_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void _btnColor_TouchUpInside (UIKit.UIButton sender);
@@ -64,10 +64,6 @@ namespace Anim
         [Action ("_btnLeft_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void _btnLeft_TouchUpInside (UIKit.UIButton sender);
-
-        [Action ("_btnRight_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void _btnRight_TouchUpInside (UIKit.UIButton sender);
 
         [Action ("_btnRotate_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -89,6 +85,10 @@ namespace Anim
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void _btnUp_TouchUpInside (UIKit.UIButton sender);
 
+        [Action ("BtnRight_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void BtnRight_TouchUpInside (UIKit.UIButton sender);
+
         void ReleaseDesignerOutlets ()
         {
             if (_ != null) {
@@ -109,11 +109,6 @@ namespace Anim
             if (_btnLeft != null) {
                 _btnLeft.Dispose ();
                 _btnLeft = null;
-            }
-
-            if (_btnRight != null) {
-                _btnRight.Dispose ();
-                _btnRight = null;
             }
 
             if (_btnRotate != null) {
@@ -139,6 +134,11 @@ namespace Anim
             if (_btnUp != null) {
                 _btnUp.Dispose ();
                 _btnUp = null;
+            }
+
+            if (BtnRight != null) {
+                BtnRight.Dispose ();
+                BtnRight = null;
             }
         }
     }

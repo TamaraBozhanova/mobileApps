@@ -176,7 +176,7 @@ namespace Anim
             });
         }
 
-        partial void _btnRight_TouchUpInside(UIButton sender)
+        partial void BtnRight_TouchUpInside(UIButton sender)
         {
             UIView.Animate(0.2f, () =>
             {

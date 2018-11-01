@@ -52,17 +52,6 @@
                                 </connections>
                                 <rect key="contentStretch" x="0" y="0" width="1" height="1"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="202" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
-                                <rect key="frame" x="251" y="648" width="113" height="45"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
-                                <state key="normal" title="Right" image="Picture/Arrows-Right-icon.png">
-                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
-                                </state>
-                                <connections>
-                                    <action selector="_btnRight_TouchUpInside:" destination="BYZ-38-t0r" id="203" eventType="touchUpInside"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="205" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
                                 <rect key="frame" x="51" y="693" width="109" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -118,6 +107,17 @@
                                     <action selector="_btnRotate_TouchUpInside:" destination="BYZ-38-t0r" id="215" eventType="touchUpInside"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="11920" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="251" y="648" width="113" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.015686274509803921" green="0.19607843137254902" blue="1" alpha="1"/>
+                                <state key="normal" title="Right">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="BtnRight_TouchUpInside:" destination="BYZ-38-t0r" id="11921" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint id="10664" firstAttribute="bottom" secondItem="199" secondAttribute="bottom" constant="1"/>
@@ -131,35 +131,36 @@
                             <constraint id="11110" firstItem="205" firstAttribute="bottom" secondItem="201" secondAttribute="bottom" constant="43"/>
                             <constraint id="11111" firstItem="201" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="31"/>
                             <constraint id="11112" firstItem="205" firstAttribute="bottom" secondItem="207" secondAttribute="bottom" constant="86"/>
-                            <constraint id="11113" firstItem="207" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="31"/>
                             <constraint id="11114" firstAttribute="bottom" secondItem="213" secondAttribute="bottom" constant="1"/>
                             <constraint id="11115" firstAttribute="trailingMargin" secondItem="213" secondAttribute="trailing" constant="29"/>
-                            <constraint id="11116" firstItem="213" firstAttribute="bottom" secondItem="202" secondAttribute="bottom" constant="42"/>
-                            <constraint id="11117" firstAttribute="trailingMargin" secondItem="202" secondAttribute="trailing" constant="30"/>
                             <constraint id="11118" firstItem="213" firstAttribute="bottom" secondItem="210" secondAttribute="bottom" constant="85"/>
                             <constraint id="11119" firstAttribute="trailingMargin" secondItem="210" secondAttribute="trailing" constant="30"/>
                             <constraint id="11372" firstAttribute="trailingMargin" secondItem="201" secondAttribute="trailing" constant="234"/>
                             <constraint id="11373" firstAttribute="trailingMargin" secondItem="197" secondAttribute="trailing" constant="144"/>
                             <constraint id="11374" firstItem="210" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="231"/>
-                            <constraint id="11375" firstItem="202" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="231"/>
                             <constraint id="11376" firstAttribute="trailingMargin" secondItem="205" secondAttribute="trailing" constant="234"/>
                             <constraint id="11377" firstItem="213" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="231"/>
                             <constraint id="11378" firstAttribute="trailingMargin" secondItem="207" secondAttribute="trailing" constant="234"/>
                             <constraint id="11379" firstAttribute="trailingMargin" secondItem="199" secondAttribute="trailing" constant="144"/>
                             <constraint id="11648" firstAttribute="trailingMargin" secondItem="212" secondAttribute="trailing" constant="144"/>
+                            <constraint id="12465" firstAttribute="trailingMargin" secondItem="11920" secondAttribute="trailing" constant="30"/>
+                            <constraint id="12466" firstItem="213" firstAttribute="bottom" secondItem="11920" secondAttribute="bottom" constant="42"/>
+                            <constraint id="12747" firstItem="213" firstAttribute="bottom" secondItem="11920" secondAttribute="bottom" constant="42"/>
+                            <constraint id="12749" firstItem="11920" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="231"/>
+                            <constraint id="13020" firstItem="207" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="31"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="_btnUp" destination="197" id="name-outlet-197"/>
                         <outlet property="_btnDown" destination="199" id="name-outlet-199"/>
                         <outlet property="_btnLeft" destination="201" id="name-outlet-201"/>
-                        <outlet property="_btnRight" destination="202" id="name-outlet-202"/>
                         <outlet property="_btnTrans" destination="205" id="name-outlet-205"/>
                         <outlet property="_btnScaleMinus" destination="207" id="name-outlet-207"/>
                         <outlet property="_btnScalePlus" destination="210" id="name-outlet-210"/>
                         <outlet property="_" destination="8bC-Xf-vdC" id="name-outlet-8bC-Xf-vdC"/>
                         <outlet property="_btnColor" destination="212" id="name-outlet-212"/>
                         <outlet property="_btnRotate" destination="213" id="name-outlet-213"/>
+                        <outlet property="BtnRight" destination="11920" id="name-outlet-11920"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -167,7 +168,4 @@
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Picture/Arrows-Right-icon.png" width="32" height="32"/>
-    </resources>
 </document>
