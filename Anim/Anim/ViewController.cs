@@ -8,7 +8,7 @@ namespace Anim
     public partial class ViewController : UIViewController
     {
         private UIView _sprite;
-        private const float _step = 2f;
+        private const float _step = 5f;
         private float _scale = 1f;
         private float _angleRotate = (float)Math.PI / 4;
         private bool _colorFlag = true;
