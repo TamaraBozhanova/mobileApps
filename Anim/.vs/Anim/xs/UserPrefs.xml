@@ -1,5 +1,10 @@
 ﻿<Properties StartupConfiguration="{F2C097FA-D202-4445-8D79-DBFE8F72A2AC}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Anim/ViewController.cs">
+    <Files>
+      <File FileName="Anim/Main.storyboard" />
+      <File FileName="Anim/ViewController.cs" Line="185" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Anim PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C56F8FAB-7503-4D39-ACB5-CF9DCE8F8BA9">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.Anim>
