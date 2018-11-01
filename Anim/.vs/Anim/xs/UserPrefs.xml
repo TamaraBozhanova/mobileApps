@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{F2C097FA-D202-4445-8D79-DBFE8F72A2AC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Anim/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Anim/ViewController.cs">
     <Files>
       <File FileName="Anim/AppDelegate.cs" Line="56" Column="10" />
-      <File FileName="Anim/ViewController.cs" Line="11" Column="38" />
-      <File FileName="Anim/Main.cs" Line="16" Column="1" />
+      <File FileName="Anim/ViewController.cs" Line="141" Column="48" />
+      <File FileName="Anim/Main.cs" Line="12" Column="1" />
       <File FileName="Anim/Main.storyboard" />
       <File FileName="Anim/DrawTriangle.cs" Line="18" Column="41" />
     </Files>

@@ -75,7 +75,7 @@ namespace AnotherAnim
 
         partial void _btnPress_TouchUpInside(UIButton sender)
         {
-            UIView.Animate(0.5f, 0, UIViewAnimationOptions.CurveEaseOut, () =>
+            UIView.Animate(0.5f, 0, UIViewAnimationOptions.CurveEaseInOut, () =>
             {
                 var frame = _figure.Frame;
                 var frameY = View.Frame.Height - frame.Y - 50;

@@ -6,7 +6,6 @@
 /Users/admin/Projects/Anim/Anim/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_PartialAppManifest.items
 /Users/admin/Projects/Anim/Anim/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_BundleResourceWithLogicalName.items
 /Users/admin/Projects/Anim/Anim/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/optimized/
-/Users/admin/Projects/Anim/Anim/obj/iPhoneSimulator/Debug/Anim.csprojAssemblyReference.cache
 /Users/admin/Projects/Anim/Anim/obj/iPhoneSimulator/Debug/Anim.csproj.CoreCompileInputs.cache
 /Users/admin/Projects/Anim/Anim/obj/iPhoneSimulator/Debug/Anim.exe
 /Users/admin/Projects/Anim/Anim/obj/iPhoneSimulator/Debug/Anim.pdb

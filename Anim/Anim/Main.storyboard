@@ -55,8 +55,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="202" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
                                 <rect key="frame" x="251" y="648" width="113" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.015686274509803921" green="0.19607843137254902" blue="1" alpha="1"/>
-                                <state key="normal" title="Right">
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                <state key="normal" title="Right" image="Picture/Arrows-Right-icon.png">
                                     <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
                                 </state>
                                 <connections>
@@ -167,4 +167,7 @@
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Picture/Arrows-Right-icon.png" width="32" height="32"/>
+    </resources>
 </document>

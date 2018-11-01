@@ -19,8 +19,8 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="200" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
-                                <rect key="frame" x="165" y="629" width="77" height="57"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <rect key="frame" x="34" y="49" width="68" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="0.55294117647058827" green="0.97647058823529409" blue="0" alpha="1"/>
                                 <state key="normal" title="PRESS">
                                     <color key="titleColor" colorSpace="calibratedWhite" white="0" alpha="1"/>
@@ -31,8 +31,8 @@
                             </button>
                         </subviews>
                         <constraints>
-                            <constraint id="202" firstItem="200" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="145"/>
-                            <constraint id="412" firstItem="200" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="609"/>
+                            <constraint id="1012" firstItem="200" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="29"/>
+                            <constraint id="1013" firstItem="200" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14"/>
                         </constraints>
                     </view>
                     <connections>
